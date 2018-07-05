@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity
+      Name="TestCompany.TestPackage.TestApp"
+      Version="0.0.0.1"
+      Publisher="CN=TestCompany"/>
+  <Properties>
+    <DisplayName>Test Application</DisplayName>
+    <PublisherDisplayName>Test Company</PublisherDisplayName>
+    <Logo>images\icon.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="en-us"/>
+  </Resources>
+  <Applications>
+    <Application Id="TestApp" Executable="application.exe" EntryPoint="MyPackage.Application">
+      <VisualElements
+          DisplayName="Test application"
+          Description="no description provided."
+          ForegroundText="dark"
+          Logo="images\icon.png"
+          SmallLogo="images\icon.png"
+          BackgroundColor="#FFFFFF">
+        <SplashScreen Image="images\icon.png"/>
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>

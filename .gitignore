@@ -1,0 +1,12 @@
+.\#*
+\#*\#
+*.exe
+*.ilk
+*.pdb
+*.obj
+*.cer
+*.pfx
+*.pvk
+*.vs/
+*.appx
+appbundle/
